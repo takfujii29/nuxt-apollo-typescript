@@ -12,10 +12,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@graphql-codegen/cli": "^1.17.8",
+    "@graphql-codegen/typescript": "^1.17.8",
     "@nuxt/typescript-runtime": "^1.0.0",
+    "graphql-tag": "^2.11.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
+    "@graphql-codegen/typescript-operations": "^1.17.8",
     "@nuxt/types": "^2.14.0",
     "@nuxt/typescript-build": "^2.0.2",
     "@nuxtjs/eslint-config": "^3.1.0",

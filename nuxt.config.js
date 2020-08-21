@@ -53,8 +53,15 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-  ],
+  modules: ['@nuxtjs/apollo'],
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint:
+         'https://swapi-graphql.netlify.com/.netlify/functions/index'
+      }
+    }
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
